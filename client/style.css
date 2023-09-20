@@ -1,0 +1,36 @@
+* {
+  color: white;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://hollowknightv1.up.railway.app/assets/banner-90b4948c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+#boss-content {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  background-color: #011225;
+}
