@@ -30,7 +30,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./Listicle_Walkthrough.mov' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://github.com/saipavankalyan/Listicle/assets/30022830/a64d72f1-d449-4760-ab85-e14e764ad2bf
+
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 
