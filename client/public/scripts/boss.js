@@ -10,7 +10,6 @@ const renderBoss = async () => {
   boss = data.find((boss) => boss.id === requestedID);
 
   if (boss) {
-    // console.log(boss);
     document.getElementById("title").textContent = boss.name;
     document.getElementById("health").textContent = `Health: ${boss.health}`;
     document.getElementById("location").textContent = boss.area;

@@ -10,7 +10,10 @@ const headerCaption = document.createElement("h3");
 headerCaption.textContent =
   "For those who are tired of being repeatedly defeated by the bosses 💀";
 
-const allBossesBtn = document.createElement("Home");
+const allBossesBtn = document.createElement("button");
+allBossesBtn.classList.add("home-btn");
+allBossesBtn.classList.add("contrast");
+allBossesBtn.classList.add("inline");
 allBossesBtn.textContent = "All Bosses";
 
 allBossesBtn.addEventListener("click", function handleClick(event) {
