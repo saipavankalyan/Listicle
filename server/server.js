@@ -1,5 +1,6 @@
 import express from "express";
 import bossesRouter from "./routes/bosses.js";
+import searchRouter from "./routes/searchbosses.js";
 
 const app = express();
 
@@ -16,8 +17,9 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 3001;
 
+app.use("/bosses", bossesRouter);
+app.use("/search", searchRouter);
+
 app.listen(PORT, () => {
   console.log(`🚀 Server listening on http://localhost:${PORT}`);
 });
-
-app.use("/bosses", bossesRouter);

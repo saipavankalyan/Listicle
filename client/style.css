@@ -58,6 +58,25 @@ main {
   align-items: center;
 }
 
+.header-search {
+  opacity: 0.9;
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  top: 10%;
+  left: 55%;
+  right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.search-btn {
+  width: 20%;
+}
+
 .card:hover {
   opacity: 0.9;
   cursor: pointer;
