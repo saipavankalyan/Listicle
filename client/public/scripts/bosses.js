@@ -1,10 +1,8 @@
-const renderBosses = async () => {
-  const response = await fetch("/bosses");
-  const data = await response.json();
-
+const renderBosses = (data) => {
   const mainContent = document.getElementById("main-content");
+  mainContent.innerHTML = "";
   mainContent.style.background = "#011225";
-  if (data) {
+  if (data && data.length > 0) {
     data.map((boss) => {
       const card = document.createElement("div");
       card.classList.add("card");
@@ -34,9 +32,22 @@ const renderBosses = async () => {
   }
 };
 
+const loadData = async () => {
+  const response = await fetch("/bosses");
+  const data = await response.json();
+  return data;
+};
+
+const renderPage = async () => {
+  const data = await loadData();
+  renderBosses(data);
+};
+
 const requestedUrl = window.location.href.split("/").pop();
 if (requestedUrl) {
   window.location.href = "../404.html";
 } else {
-  renderBosses();
+  renderPage();
 }
+
+// export default { renderBosses };

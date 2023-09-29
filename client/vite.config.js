@@ -10,6 +10,9 @@ export default defineConfig({
       "/bosses": {
         target: "http://localhost:3001",
       },
+      "/search": {
+        target: "http://localhost:3001",
+      },
     },
   },
 });

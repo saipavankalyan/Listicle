@@ -6,6 +6,7 @@ const app = express();
 
 app.use("/public", express.static("./public"));
 app.use("/scripts", express.static("./public/scripts"));
+app.use(express.json());
 
 app.get("/", (req, res) => {
   res

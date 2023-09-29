@@ -7,13 +7,11 @@ const searchBosses = async (req, res) => {
   }
 
   const { searchQuery } = req.body;
-  console.log(searchQuery);
   try {
     const { rows } = await pool.query(
       "SELECT * FROM bosses WHERE LOWER(name) LIKE $1",
       [`%${searchQuery.toLowerCase()}%`]
     );
-    console.log(rows);
     res.status(200).json(rows);
   } catch (error) {
     console.error(error);
