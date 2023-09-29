@@ -2,7 +2,7 @@
 
 Submitted by: **Sai Pavan Kalyan Munaga**
 
-About this web app: \*\*A list based web app that displays the information about Hollow Knight bosses. Uses NodeJS and Express JS for backend that serves data and static HTML as well as minimal frontend to render using Vanilla HTML/CSS/JS and picocss.\*\*
+About this web app: **A list based web app that displays the information about Hollow Knight bosses. Uses NodeJS and Express JS for backend that serves data and static HTML as well as minimal frontend to render using Vanilla HTML/CSS/JS and picocss.**
 
 Time spent: **5** hours
 
@@ -24,6 +24,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+
+https://github.com/saipavankalyan/Listicle/assets/30022830/26eaa153-0484-4cb2-9c2c-10c0dc1c9a0d
 
 <!-- Replace this with whatever GIF tool you used! -->
 
